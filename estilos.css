@@ -227,9 +227,8 @@ footer{
     background-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    width: 100%;
     color: white;
-    padding: 10px;
+    
 }
 footer p{
     margin-bottom: 20px;
@@ -239,7 +238,16 @@ footer a{
     color: springgreen;
     letter-spacing: 10px;
     font-size: 30px;
-    
+    padding: 10px;
+}
+footer h4{
+    text-align: center;
+    padding:3px ;
+    color:black ;
+    background-color: rgb(71, 69, 69);
+    font-size: 13px;
+    width: 100%;
+    margin: 0%;
 }
 /* Home termina */
 
@@ -273,3 +281,65 @@ footer a{
     background-position: center;
     background-size: cover;
 }
+/* termina nosotros */
+
+
+
+
+/* inicia opiniones */
+.sectionop{
+    background-color: rgb(71, 69, 69) ;
+    padding: 15px;
+}
+.pers{
+    margin: 40px 20px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    border: solid 2px springgreen;
+    text-align: center;
+    transition: all 0.9s;
+}
+.pers:hover{
+    transition: all 0.9s;
+    transform: scale(1.09);
+}
+.pers h3{
+    color: black;
+    background-color: springgreen;
+    border-top: solid 2px black;
+}
+.pers p{
+    color: white;
+    padding: 10px;
+}
+.pers h4{
+    border-bottom:2px solid white ;
+    color: springgreen;
+    font-size: 15px;
+}
+.pers1img{
+    background-image: url(/img/Motta.jpeg);
+    height: 140px;
+    background-position: center;
+    background-size: cover;
+}
+.pers2img{
+    background-image: url(/img/nacho.jpeg);
+    height: 140px;
+    background-position: center;
+    background-size: cover;
+}
+.pers3img{
+    background-image: url(/img/abuelo.jpeg);
+    height: 140px;
+    background-position: center;
+    background-size: cover;
+}
+.pers4img{
+    background-image: url(/img/lau.jpeg);
+    height: 140px;
+    background-position: center;
+    background-size: cover;
+}
+

@@ -78,7 +78,7 @@ html {
     height: 90vh;
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("/img/programador.jpg");
+            rgba(0, 0, 0, 0.5)), url("img/programador.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -212,32 +212,32 @@ h1 {
 }
 
 .art1 {
-    background-image: url(/img/programador.jpg);
+    background-image: url(img/programador.jpg);
 }
 
 
 .art2 {
-    background-image: url(/img/prgramador2.jpg);
+    background-image: url(img/prgramador2.jpg);
 }
 
 .art3 {
-    background-image: url(/img/programador3.jpg);
+    background-image: url(img/programador3.jpg);
 }
 
 .art4 {
-    background-image: url(/img/programador4.jpg);
+    background-image: url(img/programador4.jpg);
 }
 
 .art5 {
-    background-image: url(/img/programador5.jpeg);
+    background-image: url(img/programador5.jpeg);
 }
 
 .art6 {
-    background-image: url(/img/programador6.jpg);
+    background-image: url(img/programador6.jpg);
 }
 
 .art7 {
-    background-image: url(/img/programador7.jpg);
+    background-image: url(img/programador7.jpg);
 }
 
 .art8 {
@@ -292,7 +292,7 @@ footer h4 {
 
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("/img/programador.jpg");
+            rgba(0, 0, 0, 0.5)), url("img/programador.jpg");
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -306,7 +306,7 @@ footer h4 {
 }
 
 .logoimg {
-    background-image: url(/img/Computadoras.png);
+    background-image: url(img/Computadoras.png);
     height: 300px;
     background-position: center;
     background-size: cover;
@@ -356,21 +356,21 @@ footer h4 {
 }
 
 .pers1img {
-    background-image: url(/img/Motta.jpeg);
+    background-image: url(img/Motta.jpeg);
     height: 140px;
     background-position: center;
     background-size: cover;
 }
 
 .pers2img {
-    background-image: url(/img/nacho.jpeg);
+    background-image: url(img/nacho.jpeg);
     height: 140px;
     background-position: center;
     background-size: cover;
 }
 
 .pers3img {
-    background-image: url(/img/abuelo.jpeg);
+    background-image: url(img/abuelo.jpeg);
     height: 140px;
     background-position: center;
     background-size: cover;
@@ -391,7 +391,7 @@ footer h4 {
     padding: 20px;
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("/img/programador4.jpg");
+            rgba(0, 0, 0, 0.5)), url("img/programador4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

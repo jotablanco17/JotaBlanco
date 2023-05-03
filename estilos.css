@@ -5,7 +5,7 @@
     bottom: 40px;
     right: 20px;
     position: fixed;
-    background-color:springgreen;
+    background-color: springgreen;
     color: rgb(20, 20, 20);
     text-align: center;
     display: flex;
@@ -15,7 +15,8 @@
     border: white 3px solid;
 
 }
-.subir:hover{
+
+.subir:hover {
     background-color: black;
     color: springgreen;
     transition: all 0.8s;
@@ -27,29 +28,40 @@
 
 
 
-.navbar{
+.navbar {
     background-color: gray;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid springgreen;
+    z-index: 999;
 }
-body{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    background-color: rgb(71, 69, 69) ;
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(71, 69, 69);
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-   /*navbar  */
-.navbar{
+
+/*navbar  */
+.navbar {
     background-color: rgb(71, 69, 69);
-    
+
 }
-.nav-link{
+
+.nav-link {
     color: rgb(232, 247, 239) !important;
+    text-align: center;
     
 }
-.navbar-brand{
+
+.navbar-brand {
     color: springgreen !important;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     transition: all 0.7s;
     color: springgreen !important;
 }
@@ -57,35 +69,34 @@ html{
 
 
 /* section1 */
-#s1{
+#s1 {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
     height: 90vh;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-
-    )
-    ,url("/img/programador.jpg");
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("/img/programador.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center ;
+    background-position: center;
     color: white;
-    
-}
-h1{
-    font-size: 55px;
-    
 
 }
-#s1 p{
+
+h1 {
+    font-size: 55px;
+
+
+}
+
+#s1 p {
     font-size: 20px;
 }
-.masinfo{
+
+.masinfo {
     font-size: 15px;
     font-weight: bold;
     padding: 10px 20px;
@@ -95,25 +106,27 @@ h1{
     color: rgb(7, 6, 6);
     background-color: springgreen;
     transition: all 0.8s;
-    border :1px solid black;
+    border: 1px solid black;
     margin-top: 20px;
 }
-.masinfo:hover{
+
+.masinfo:hover {
     transition: all 0.8s;
     border: 1px solid springgreen;
-    border-radius:10px ;
+    border-radius: 10px;
     background-color: black;
     color: springgreen;
 }
-.house{
+
+.house {
     color: springgreen;
 }
-.aprende{
-    
+
+.aprende {
+
     padding: 15px;
     text-align: center;
     color: springgreen;
-    
     background-color: black;
     margin-bottom: 0;
     border-bottom: 2px solid springgreen;
@@ -123,20 +136,18 @@ h1{
 
 
 /* s2 */
-#s2{
-    background-color:rgb(71, 69, 69) ;
+#s2 {
+    background-color: rgb(71, 69, 69);
     text-align: center;
-    
+
 }
-.cartas{
-    
-    flex-direction: column;
-    
-}
+
+
+
 .card1 {
     width: 50%;
-    min-height: 80px;
-    background-color:rgb(187, 184, 184) ;
+    min-height: 30px;
+    background-color: rgb(187, 184, 184);
     text-align: center;
     border-radius: 5%;
     margin: 40px;
@@ -145,24 +156,29 @@ h1{
     border: 1px solid springgreen;
     transition: all 0.9s;
     margin-top: 30px;
+
 }
-.card1:hover{
+
+.card1:hover {
     transition: all 0.9s;
     transform: scale(1.09);
     border: black solid 2px;
 }
-.card1 h3{
+
+.card1 h3 {
     margin-top: 50px;
     color: springgreen;
     background-color: black;
 }
+
 .logoo:hover {
-    
+
     transform: scale(1.09);
     transition: all 0.9s;
-    
+
 }
-.logoo{
+
+.logoo {
     font-size: 100px;
     transition: all 0.9s;
     color: black;
@@ -170,128 +186,144 @@ h1{
 
 
 /* galeria */
-#s3{
+#s3 {
     background-color: springgreen;
-    
+
 }
-#s3 article{
+
+#s3 article {
     height: 200px;
     background-size: cover;
     background-position: center;
     border: solid 2px black;
     border-radius: 3%;
     padding: 20px;
-   
-    
+
+
 }
-#s3 article:hover{
+
+#s3 article:hover {
     transition: all 0.9s;
     transform: scale(1.09);
 }
-#s3 article{
+
+#s3 article {
     transition: all 0.9s;
 }
-.art1{
+
+.art1 {
     background-image: url(/img/programador.jpg);
 }
 
 
-.art2{
+.art2 {
     background-image: url(/img/prgramador2.jpg);
 }
-.art3{
+
+.art3 {
     background-image: url(/img/programador3.jpg);
 }
-.art4{
+
+.art4 {
     background-image: url(/img/programador4.jpg);
 }
-.art5{
+
+.art5 {
     background-image: url(/img/programador5.jpeg);
 }
-.art6{
+
+.art6 {
     background-image: url(/img/programador6.jpg);
 }
-.art7{
+
+.art7 {
     background-image: url(/img/programador7.jpg);
 }
-.art8{
+
+.art8 {
     background-image: url(/img/programador8.jpg);
 }
-.art9{  background-image: url(/img/programador9.jpg);
+
+.art9 {
+    background-image: url(/img/programador9.jpg);
 
 }
 
 
 /* footer */
-footer{
+footer {
     background-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     color: white;
-    
+
 }
-footer p{
+
+footer p {
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 7px;
 }
-footer a{
+
+footer a {
     color: springgreen;
     letter-spacing: 10px;
     font-size: 30px;
     padding: 10px;
 }
-footer h4{
+
+footer h4 {
     text-align: center;
-    padding:3px ;
-    color:black ;
+    padding: 3px;
+    color: rgb(235, 227, 227);
     background-color: rgb(71, 69, 69);
     font-size: 13px;
     width: 100%;
     margin: 0%;
 }
+
 /* Home termina */
 
 
 
 
 /* Nosotros */
-.contenedorq{
+.contenedorq {
     width: 100%;
-    
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
 
-    )
-    ,url("/img/programador.jpg");
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("/img/programador.jpg");
     background-position: center;
     background-size: cover;
     text-align: center;
 }
-.nosotros p{
+
+.nosotros p {
     color: white;
     font-weight: bold;
     padding: 40px;
     margin-bottom: 0;
 }
-.logoimg{
+
+.logoimg {
     background-image: url(/img/Computadoras.png);
     height: 300px;
     background-position: center;
     background-size: cover;
 }
+
 /* termina nosotros */
 
 
 
 
 /* inicia opiniones */
-.sectionop{
-    background-color: rgb(71, 69, 69) ;
+.sectionop {
+    background-color: rgb(71, 69, 69);
     padding: 15px;
 }
-.pers{
+
+.pers {
     margin: 40px 20px;
     background-position: center;
     background-size: cover;
@@ -300,75 +332,100 @@ footer h4{
     text-align: center;
     transition: all 0.9s;
 }
-.pers:hover{
+
+.pers:hover {
     transition: all 0.9s;
     transform: scale(1.09);
 }
-.pers h3{
+
+.pers h3 {
     color: black;
     background-color: springgreen;
     border-top: solid 2px black;
 }
-.pers p{
+
+.pers p {
     color: white;
     padding: 10px;
 }
-.pers h4{
-    border-bottom:2px solid white ;
+
+.pers h4 {
+    border-bottom: 2px solid white;
     color: springgreen;
     font-size: 15px;
 }
-.pers1img{
+
+.pers1img {
     background-image: url(/img/Motta.jpeg);
     height: 140px;
     background-position: center;
     background-size: cover;
 }
-.pers2img{
+
+.pers2img {
     background-image: url(/img/nacho.jpeg);
     height: 140px;
     background-position: center;
     background-size: cover;
 }
-.pers3img{
+
+.pers3img {
     background-image: url(/img/abuelo.jpeg);
     height: 140px;
     background-position: center;
     background-size: cover;
 }
-.pers4img{
+
+.pers4img {
     background-image: url(/img/lau.jpeg);
     height: 140px;
     background-position: center;
     background-size: cover;
 }
+
 /* termina opiniones */
 
 
 /* inicia contacto */
-    .sectionform{
-        padding: 20px;
-        
-    }
-    textarea{
-        width: 100%;
-        height: 70px;
-        box-shadow: 2px 2px 10px black;
+.sectionform {
+    padding: 20px;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("/img/programador4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+textarea {
+    width: 100%;
+    height: 70px;
+    box-shadow: 2px 2px 10px black;
     color: rgb(7, 6, 6);
     margin: 7px 0px;
-    }
-    input{
-        width: 100%;
-        box-shadow: 2px 2px 10px black;
+}
+
+input {
+    width: 100%;
+    box-shadow: 2px 2px 10px black;
     color: rgb(7, 6, 6);
     margin: 7px 0px;
     padding: 5px;
-    }
-    input::placeholder , textarea::placeholder{
-        color: black;
-    }
-    .enviar{
-        font-weight: bold;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: black;
+}
+
+input:hover {
+    border: 2px solid springgreen;
+    color: rgb(196, 202, 207);
+    transition: all 0.7s;
+}
+
+.enviar {
+    font-weight: bold;
     padding: 10px 20px;
     border-radius: 10px;
     border: 1px solid black;
@@ -376,9 +433,81 @@ footer h4{
     color: rgb(7, 6, 6);
     background-color: springgreen;
     transition: all 0.8s;
-    border :1px solid black;
+    border: 1px solid black;
     margin-top: 10px;
     width: 30%;
-    
-    }
+
+}
+
+.enviar:hover {
+    transition: all 0.8s;
+    border: 1px solid springgreen;
+    border-radius: 10px;
+    background-color: black;
+    color: springgreen;
+
+
+}
+
 /* termina contacto */
+
+
+/* media */
+@media (min-width:705px){
+    /* main inicia */
+    h1{
+        font-size: 120px;
+    }
+    #s1 p{
+        font-size: 40px;
+    }
+    .masinfo{
+        font-size: 1.5em;
+    }
+
+    .cartas{
+        display: flex;
+        justify-content: space-around;
+    }
+    .card1{
+        margin: 10px 30px;
+    }
+    /* main termina */
+
+
+
+    /* opiniones inicia */
+    .sectionop{
+        display: flex;
+        justify-content: space-around
+    }
+    /*opiniones termina  */
+
+
+
+
+    /* contacto inicia */
+    .sectionform{
+        padding: 40px  100px;
+        height: 60vh;
+        margin: auto;
+    }
+    input{
+        height: 50px;
+        width : 30%;
+
+    }
+    .enviar{
+        flex-direction:row-reverse ;
+    }
+    textarea{
+        height:120px ;
+        width: 90%;
+    }
+    .enviar{
+        width: 120px;
+        
+    }
+
+/* contacto termina */
+}
